@@ -1,0 +1,6 @@
+[
+  {"zip7":"0600001","pref":"北海道","city":"札幌市中央区","town":"北一条西","lat":43.0621,"lon":141.3544,"score":80,"match_type":"town_prefix"},
+  {"zip7":"1500001","pref":"東京都","city":"渋谷区","town":"神宮前","lat":35.6692,"lon":139.7068,"score":100,"match_type":"town_exact"},
+  {"zip7":"4600008","pref":"愛知県","city":"名古屋市中区","town":"栄","lat":35.1681,"lon":136.9066,"score":100,"match_type":"town_exact"},
+  {"zip7":"9000015","pref":"沖縄県","city":"那覇市","town":"久茂地","lat":26.2148,"lon":127.6811,"score":100,"match_type":"town_exact"}
+]

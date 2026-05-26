@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nippon Roulette</title>
+  <link rel="stylesheet" href="./vendor/leaflet.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main>
+    <h1>郵便番号ランダム抽選</h1>
+    <p id="status">データ読み込み中...</p>
+    <div class="controls">
+      <button id="startBtn">抽選スタート</button>
+      <button id="nextBtn" disabled>次の桁へ</button>
+    </div>
+    <div id="digits"></div>
+    <div id="map"></div>
+    <section id="result"></section>
+  </main>
+
+  <script src="./vendor/leaflet.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
